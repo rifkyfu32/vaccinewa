@@ -1,0 +1,30 @@
+{
+  "name": "vaccinewa",
+  "version": "1.0.0",
+  "description": "aplikasi chatbot vaccinewa",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh:git@github.com:rifkyfu32/vaccinewa.git"
+  },
+  "keywords": [
+    "chatbot"
+  ],
+  "author": "Rifky Fuady",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rifkyfu32/vaccinewa/issues"
+  },
+  "homepage": "https://github.com/rifkyfu32/vaccinewa#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "form-data": "^4.0.0",
+    "node-cron": "^2.0.3",
+    "node-fetch": "^2.0.0",
+    "whatsapp-web.js": "^1.12.5"
+  }
+}
